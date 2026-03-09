@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: bisque;
+}
+.div {
+  background: linear-gradient(90deg, white 50%, #0cae60 50%);
+  height: 100vh;
+  width: 100%;
+}
+.hero-section {
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 70%;
+}
+.fornavbar {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  box-shadow: 0 0 10px 0 rgb(232, 229, 229);
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 60px;
+  background-color: #ffffff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.navbar-logo h3 {
+  margin-left: 25px;
+  font-size: 28px;
+  background: linear-gradient(
+    to right,
+    rgb(252, 42, 42) 10%,
+    rgb(52, 255, 113) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar-links ul {
+  flex-direction: row;
+  display: flex;
+}
+
+.links:first-child {
+  width: 60px;
+  background-color: #179e5d;
+}
+.links {
+  cursor: pointer;
+  border-radius: 8px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  background-color: #179e5d;
+  width: 70px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: 0.4s ease;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+}
+.links:last-child {
+  margin-right: 60px;
+  width: 130px;
+  height: 30px;
+}
+.links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.links:hover {
+  box-shadow: 0 0 5px 1px rgb(255, 255, 255);
+  background-color: #1cc372;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+/* // left section// */
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.left-section img {
+  width: 400px;
+  height: 580px;
+  margin: 0 0 0 100px;
+}
+.login {
+  box-shadow: 0 0 10px 0px rgb(204, 201, 201);
+  border-radius: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.login form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login input {
+  width: 350px;
+  height: 35px;
+}
+.login label {
+  margin: 19px;
+}
+.formmain {
+  margin-top: 20px;
+}
+h2 {
+  margin: 7px 7px 7px 7px;
+}
+.forgetpassword {
+  margin: 8px 0 0 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+input {
+  padding: 0 0 0 12px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 2px 0 rgb(149, 149, 149);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+input:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 5px 1px #1cc372;
+}
+.email {
+  margin-bottom: 25px;
+}
+.loginbutton {
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0cae60;
+  width: 350px;
+  height: 35px;
+  margin: 20px 0 0 15px;
+  outline: none;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+}
+.loginbutton:hover {
+  background-color: #179e5d;
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
